@@ -13,7 +13,7 @@ bot.command(`start`, async(ctx) => {
 bot.command('help', async(ctx) => {
     ctx.reply(`Выберите, какие конкретно функции Вас интересуют`, {parse_mode: 'HTML', reply_markup: {
         inline_keyboard: [
-            [{text: 'Обычные', callback_data: 'default_help'}],
+            [{text: 'Обычные ', callback_data: 'default_help'}],
             [{text: 'Для разработчиков', callback_data: 'api_help'}]
                     ]
                 }
@@ -35,7 +35,7 @@ const callbacks = (bot) => {
 
 
     bot.action('api_help', async(ctx) => {
-        
+
     })
 }
 
@@ -51,7 +51,7 @@ const callbacks = (bot) => {
 
 
 
-
+await callbacks(bot)
 
 
 console.log('🎁 ПРОЕКТ ЗАПУЩЕН')
