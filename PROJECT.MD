@@ -166,9 +166,13 @@ reminder-bot/
 */start*
 
 
+
+
 ![alt text](image-1.png)
 
-*Кнопка "К"ак начать"*
+*Кнопка "Как начать"*
+
+
 
 
 ![alt text](image-2.png)
@@ -176,14 +180,20 @@ reminder-bot/
 */help или кнопка "Помощь"*
 
 
+
+
 ![alt text](image-3.png)
 
 */addtask или кнопка "Создать"*
 
 
+
+
 ![alt text](image-4.png)
 
 *Пришедшее напоминание*
+
+
 
 
 ![alt text](image-5.png)
