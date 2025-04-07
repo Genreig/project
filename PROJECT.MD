@@ -160,7 +160,24 @@ reminder-bot/
 
 ## Приложения
 ### Приложение 1: Скриншоты интерфейса
-[Здесь можно разместить скриншоты бота]
+
+![alt text](image.png)
+*/start*
+
+![alt text](image-1.png)
+*Кнопка "К"ак начать"*
+
+![alt text](image-2.png)
+*/help или кнопка "Помощь"*
+
+![alt text](image-3.png)
+*/addtask или кнопка "Создать"*
+
+![alt text](image-4.png)
+*Пришедшее напоминание*
+
+![alt text](image-5.png)
+*/list или кнопка "Список"*
 
 ### Приложение 2: Пример кода (фрагмент из bot.js)
 ```javascript
@@ -182,9 +199,10 @@ console.log('Бот запущен!');
 ```
 
 ### Приложение 3: Список использованных ресурсов
-1. Официальная документация Telegraf.js
-2. Руководство по SQLite
-3. Учебные материалы по Node.js
+1. [Официальная документация Telegraf.js](https://telegraf.js.org/)
+2. [Руководство по SQLite](https://rukovodstvo.net/posts/id_1119/)
+3. [Учебные материалы по Node.js](https://metanit.com/web/nodejs/)
+4. [Современный учебник по Javascript](https://learn.javascript.ru/)
 
 ---
 

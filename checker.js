@@ -26,8 +26,8 @@ export function startReminderChecker(bot, db) {
                     await bot.telegram.sendMessage(
                         task.user_id,
 `<b>🔔 НАПОМИНАНИЕ</b>\n\n
-📌 Задача:\n${task.task}\n\n
-⏰ Когда: ${task.reminder_date} в ${task.reminder_time}`, {parse_mode: 'HTML', reply_markup: {
+<b>📌 Задача:\n${task.task}</b>\n\n
+<b>⏰ Когда: ${task.reminder_date} в ${task.reminder_time}</b>`, {parse_mode: 'HTML', reply_markup: {
                             inline_keyboard: [
                                 [{text: '🗑 Удалить', callback_data: 'deleteReminder'}]
                             ]
