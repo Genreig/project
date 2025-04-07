@@ -12,10 +12,9 @@ export const start = (bot) => {
                   
         `, 
             parse_mode: 'HTML',
-            protect_content: true,
             reply_markup: {
                 inline_keyboard: [
-                    [{ text: '✨ Начать работу', callback_data: 'quickStart' }],
+                    [{ text: '✨ Как начать работу', callback_data: 'quickStart' }],
                     [
                         { text: '📝 Создать', callback_data: 'addTask' },
                         { text: '🗂 Список', callback_data: 'listTask' }
